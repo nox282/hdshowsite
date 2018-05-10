@@ -20,7 +20,7 @@ Use `java -jar [path]/[filename].jar`
 To change the name and/or version, edit the `pom.xml` file in the root directory of the project, you will find these parameters in the first `<groupId>org.springframework</groupId>`. The name and version ends up in the packaged `.jar` file's name.
 
 ### Springboot mail plugin
-All the application configuration are stored in `src/main/resource/application.properties`. Here is a sample configuration file : 
+All the application configuration are provided by `src/main/resource/application.properties`. Here is a sample configuration file : 
 ```
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
