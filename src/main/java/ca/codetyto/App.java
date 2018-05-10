@@ -1,13 +1,14 @@
 package ca.codetyto;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+import it.ozimov.springboot.mail.configuration.*;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableEmailTools
+public class App  {
+	public static void main(String[] args) {
+    	SpringApplication.run(App.class, args);
+  	}
 }
